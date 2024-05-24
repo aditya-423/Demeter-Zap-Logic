@@ -19,12 +19,17 @@ Liquidity Pool Tokens to Single Asset:
 Without Zapping:
 Withdraw the liquidity pool tokens.
 Swap the resulting tokens back to your desired single asset.
+
 With Zapping:
 Directly convert the liquidity pool tokens back to your desired single asset in one transaction.
+
+
 Benefits of Zapping:
 Efficiency: Reduces the number of transactions required, saving on gas fees and reducing the complexity of the process.
 Convenience: Simplifies the user experience by automating the intermediate steps.
 Time-Saving: Minimizes the time required to interact with multiple smart contracts.
+
+
 Use Cases in DeFi:
 Liquidity Provisioning: Users can easily add liquidity to pools without needing to manually balance their token ratios.
 Yield Farming: Simplifies the process of entering and exiting yield farming positions.
