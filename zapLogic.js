@@ -121,9 +121,10 @@ async function getPrice(token){
     // Calculate the current price from sqrtPriceX96
     const p = (Number(sqrtPriceX96) / (2 ** 96)) ** 2;
 
-    const px = await getPrice(1);
-    const py = await getPrice(2);
-    
+    //const px = await getPrice(1);
+    //const py = await getPrice(2);
+    const px = p;
+    const py = 1;
 
     console.log(`Min Price: ${pa}`);
     console.log(`Max Price: ${pb}`);
